@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body section{
+    border: 2px solid ;
+    margin-top: 5vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+    width: 70%;
+    font-family: sans-serif;
+}
+section form h1{
+    font-size: 2vw;
+    color: #fff;
+    text-shadow: -2px -2px 10px #666464;
+}
+section form {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+section form > *{
+    margin: 2vw;
+}
+section form fieldset{
+    padding: 1vw;
+}
+section form fieldset legend{
+    font-weight: bolder;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    color: #666464;
+}
+section form input{
+    padding: 1vw;
+    font-size: 1.1em;
+    width: 100%;
+    background-color: #969090;
+    border: none;
+    color: #fff;
+}
+section form input[type="submit"]{
+    width: 30%;
+    margin: auto;
+    padding: 0.5vw;
+    font-size: 1em;
+    background-color: #000;
+    color: #fff;
+    border: none;
+}
+section form input[type="submit"]:hover{
+    border-style: 1px solid #474646;
+    box-shadow: 1px 0px 10px #3f3e3e;
+}
